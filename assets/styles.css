@@ -1,0 +1,62 @@
+/*
+        Zen Garden Ocean Theme style guide
+
+        Group members: 
+
+            BriAnna Marsh
+            Paula Spitale 
+            Isabel Aranguren Lares
+
+
+ Typography partial */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Quattrocento", serif;
+  font-size: 14px;
+}
+
+/*
+        Zen Garden Ocean Theme style guide
+*/
+header {
+  padding: 20px;
+  height: 15vh;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.summary {
+  display: block;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #9fd6e0;
+}
+
+.summary :last-child {
+  line-height: 5px;
+}
+
+abbr {
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 0.01em;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+.summary, .preamble, .explanation, .benefits {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

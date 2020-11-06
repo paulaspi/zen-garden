@@ -1,0 +1,58 @@
+/*
+        Zen Garden Ocean Theme style guide
+
+        Group members: 
+
+            BriAnna Marsh
+            Paula Spitale 
+            Isabel Aranguren Lares
+*/
+
+
+//Navigation styles
+
+// Small screen 
+
+    // Select a style navigation (further clarification (ie class/id) will be added later)
+    nav {
+        background-color: $light-blue;
+        color: $primary-font-color;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    } 
+    
+    // Resources, archives, etc (further clarification (ie class/id) will be added later)
+    nav{
+        background-color: $accent-blue;
+        color: $secondary-font-color;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;a
+    }
+    
+
+
+
+// Large screen all navs
+
+@media (min-width:600px){
+    nav ul li {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      }
+    li a {
+        padding: 4px 0 2px 8px;
+        color: $primary-font-color;
+        text-transform: uppercase;
+        line-height: 1.7;
+        border-bottom: 1px dotted #DDD;
+      }
+}

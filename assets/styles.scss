@@ -1,6 +1,11 @@
 @import 'partials/_typography.scss';
 @import 'partials/_colors.scss';
 
+.page-wrapper{
+    display: flex;
+    flex-flow: wrap;
+}
+
 header {
   padding: 20px;
   height: 15vh;
@@ -20,6 +25,45 @@ header {
   line-height: 5px;    
 }
 
+// main paragrahs
+.preamble, .participation {
+    width: 70%;
+    margin-left: 50px;
+    padding: 3%;
+}
+
+.explanation h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+    border-bottom: 3px solid $primary-font-color;
+    padding-bottom: 5px;
+}
+
+.design-selection {
+    align-self: center;
+}
+
+.benefits{
+    text-align: center;
+    
+}
+
+.benefits h3 {
+    font-size: 150%;
+}
+
+.benefits p {
+    border-top: 3px solid $primary-font-color;
+    border-bottom: 3px solid $primary-font-color;
+    padding: 1em 0;
+}
+
+.requirements {
+    margin-left: 15%;
+}
+
+
 abbr {
   border: none;
   text-transform: uppercase;
@@ -31,15 +75,8 @@ abbr {
     position: relative;
   }
   
-.summary, .preamble, .explanation, .benefits {
+.summary, .explanation, .benefits {
     width: 90%;
     margin: 0 auto;
   }
 
-// @media only screen and (max-width: 500px) {
-  
-// }
-  
-// @media only screen and (max-width: 320px) {
-    
-// }

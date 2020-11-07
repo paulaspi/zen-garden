@@ -28,9 +28,26 @@ $body-font: 'Quattrocento', serif;
 h1, h2{
     font-family: $heading-font;
     font-weight: bold;
+    padding: 0 10%;
+    margin: 0;
+    color: #657786;
+    
+}
+
+
+h3 {
+    font-size: 24px;
+    color:  #0f4550 ;
 }
 
 body{
     font-family: $body-font;
     font-size: 14px;
 }
+
+p {
+    color:rgb(59, 59, 59);
+    margin: 0.75em 0;
+    line-height: 2;
+}
+
